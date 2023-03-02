@@ -1,0 +1,19 @@
+.error404InfoContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.error404Img {
+    margin-top: 90px;
+    height: 600px;
+    width: 635px;
+}
+
+.error404Text {
+    font-size: 80px;
+    position: relative;
+    right: 50px;
+    top: 30px;
+    font-family: 'Lucida Sans';
+}

@@ -1,0 +1,20 @@
+.loadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+}
+
+.loadingGif {
+    height: 500px;
+    width: 500px;
+}
+
+.loadingText {
+    font-size: 60px;
+    font-family: 'Lucida Sans';
+    position: relative;
+    bottom: 100px;
+}

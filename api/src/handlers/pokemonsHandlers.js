@@ -15,7 +15,7 @@ const getAllPokemonsHandler = async (req, res) => {
             const allPokemonsByNameInApi = await getAllPokemonsByNameInApi(name);
             const results = [...allPokemonsByNameInDb, ...allPokemonsByNameInApi];
 
-            if (!results.length) throw new Error("Ningún pokemon coincide con la búsqueda");
+            if (results.length === 0) throw new Error("Ningún pokemon coincide con la búsqueda");
 
             res.status(200).send(results);
         } else {

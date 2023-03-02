@@ -1,0 +1,196 @@
+.paginadoContainerTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paginadoTextTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.buttonPaginadoContainerTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.buttonPrevTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    background-color: #CE2211;
+    font-size: 25px;
+    padding: 15px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px black;
+    color: white;
+    border-radius: 70px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.buttonPrevTop:hover {
+    background-color: #FB1B1B;
+    cursor: pointer;
+}
+
+.buttonPrevTop:disabled {
+    cursor: not-allowed;
+    background-color: #DFDFDF;
+    color: black;
+}
+
+.buttonNextTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    background-color: #CE2211;
+    font-size: 25px;
+    padding: 15px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px black;
+    color: white;
+    border-radius: 70px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.buttonNextTop:hover {
+    background-color: #FB1B1B;
+    cursor: pointer;
+}
+
+.buttonNextTop:disabled {
+    cursor: not-allowed;
+    background-color: #DFDFDF;
+    color: black;
+}
+
+.paginadoContainerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paginadoTextBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.buttonPaginadoContainerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.buttonPrevBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    background-color: #CE2211;
+    font-size: 25px;
+    padding: 15px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px black;
+    color: white;
+    border-radius: 70px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.buttonPrevBottom:hover {
+    background-color: #FB1B1B;
+    cursor: pointer;
+}
+
+.buttonPrevBottom:disabled {
+    cursor: not-allowed;
+    background-color: #DFDFDF;
+    color: black;
+}
+
+.buttonNextBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    background-color: #CE2211;
+    font-size: 25px;
+    padding: 15px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px black;
+    color: white;
+    border-radius: 70px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.buttonNextBottom:hover {
+    background-color: #FB1B1B;
+    cursor: pointer;
+}
+
+.buttonNextBottom:disabled {
+    cursor: not-allowed;
+    background-color: #DFDFDF;
+    color: black;
+}
+
+.filterContainerMain {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.filterContainer {
+    background-color: #DFDFDF;
+    padding: 30px;
+    border-radius: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 3px 3px 10px black;
+    border: 1px solid black;
+}
+
+.filterText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.selectFilter {
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    height: 45px;
+    width: 200px;
+    border-radius: 50px;
+    padding-left: 5px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.selectFilter:hover {
+    cursor: pointer;
+}
